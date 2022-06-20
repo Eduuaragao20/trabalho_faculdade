@@ -1,0 +1,227 @@
+#nav-pesquisa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1.5rem;
+}
+
+#nav-principal {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid red
+}
+
+#botao-pesquisa {
+    width: 40px;
+    border: none;
+    background: none;
+    padding: 4px 12px 4px 0px;
+    border-color: black;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    border: 1px solid;
+    border-left: none;
+    cursor: pointer;
+}
+
+#botao-pesquisa:hover {
+    background-color: red;
+    transition: ease-in-out 300ms;
+    fill: white;
+}
+
+#botao-pesquisa > svg{
+    margin-left: 0.5rem;
+}
+
+#anuncio {
+    text-align: center;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 1px 10px 0px black;
+    padding: 0.4rem ;
+}
+
+#produtos {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: inline-grid;
+    justify-content: center;
+    justify-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#espaco {
+    padding: 13px;
+}
+
+#produto1, #produto2, #produto3, #produto4, #produto5, #produto6 {
+    box-shadow: 1px 1px 15px 5px grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    width: 250px;
+}
+
+#produto4, #produto5, #produto6 {
+    margin-top: 40px;
+}
+
+#descricao {
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+#descricao-novo {
+    color: gray;
+    font-size: 25px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 25px 5px grey;
+    border-radius: 15px;
+    height: auto;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+
+#valor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+}
+
+#cartao {
+    font-size: 17px;
+    text-align: left;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+#cadeira {
+    margin-top: 10px;
+}
+
+#espaco-menor {
+    margin-bottom: 30px;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+i {
+    font-size: 18px;
+}
+
+#imagem-produto {
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 15px;
+    box-shadow: 5px 5px 25px 5px grey;
+    border-radius: 15px;
+    width: 550px;
+    height: 550px;
+}
+
+#valor-produto {
+    display: flex;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    color: black;
+    box-shadow: 5px 5px 25px 5px grey;
+    border-radius: 15px;
+    width: 650px;
+}
+
+#valor-produto > svg {
+    width: 25px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
+#botao-compra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    box-shadow: 5px 5px 15px 5px grey;
+    border-radius: 25px;
+    width: 650px;
+    height: 92px;
+    cursor: pointer;
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+}
+
+#botao-compra > svg {
+    margin-left: 0.5rem;
+    width: 180px;
+    height: 30px;
+    margin-right: 220px;
+}
+
+#botao-compra:hover {
+    background: rgb(197, 36, 36);
+    transition: ease-in-out 200ms;
+}
+
+#nome-compra {
+    font-size: 25px;
+    margin-left: 220px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#footer {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    margin-top: 45px;
+    background: rgb(246, 246, 246);
+    font-size: 19px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    cursor: pointer;
+}
+
+#footer > div:hover {
+    color: black;
+    transition: ease-in-out 200ms;
+}
+
+#cod-produto {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 13px;
+    font-family: italic;
+}
+
+#eduardo {
+    font-size: 15px;
+}

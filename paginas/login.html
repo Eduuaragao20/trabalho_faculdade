@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/var.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="intro">
+            <img src="img/logo_americanas.png" alt="logo americanas" >
+            <h2>Bem-vindo, para continuar faça o Login.</h2>
+        </div>
+            <form method="post" action="/login">
+            <h1>Login</h1>
+                <input class="email" type="text" name="email" placeholder="Digite seu Email">
+                <input class="senha" type="password" name="senha" placeholder="Digite sua Senha">
+                <input type="submit" name="acao" value="Login">
+                <p>Esqueceu a senha?</p>
+                <hr class="traco-divisor">
+                <button onclick="criaConta()" class="criar" type="button">Criar Conta</button>
+            </form>
+
+    </div>
+    <script>
+        function criaConta() {
+            console.log('entrei aqui')
+            window.location.href = '/create'
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>
